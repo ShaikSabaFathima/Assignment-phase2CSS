@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear</title>
+</head>
+<style>
+    img {
+        float: right;
+    }
+
+    .img1 {
+        float: left;
+    }
+
+    .clearfix {
+        overflow: auto;
+    }
+</style>
+
+<body>
+    <h2>Float Right</h2>
+    <p>In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap
+        around the image.</p>
+    <p><img src="C:\Users\user\Downloads\praneet-kumar-H8dcf-v98mA-unsplash.jpg" height="200" width="400"></p>
+    <br><br><br>
+    <h2 style="clear:right">Clearfix</h2>
+    <div class="clearfix">
+        <img class="img1" src="C:\Users\user\Downloads\praneet-kumar-H8dcf-v98mA-unsplash.jpg" width="400"
+            height="200">We can fix this by adding a clearfix class with overflow: auto; to the containing element:
+    </div>
+</body>
+
+</html>

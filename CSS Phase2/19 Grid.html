@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Basics</title>
+</head>
+<body>
+    <style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto auto;
+          gap: 10px;
+          background-color: #710d7a;
+          padding: 10px;
+        }
+        
+        .grid-container > div {
+          background-color: rgba(208, 157, 207, 0.8);
+          border: 1px solid black;
+          text-align: center;
+          font-size: 30px;
+        }
+        </style>
+        <h1>CSS Grid</h1>
+    <div class="grid-container">
+        <div>This</div>
+        <div>is</div>
+        <div>a</div>  
+        <div>basic</div>
+        <div>Example</div>
+        <div>of</div>
+        <div>Grid</div>
+
+      </div>
+    
+</body>
+</html>

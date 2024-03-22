@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Designs</title>
+</head>
+<style>
+  img {
+  width: 400;
+  height: 400;
+  padding: 20px;
+
+}
+    * {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+
+.header {
+  background-color: #338fcc;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+.aside {
+  background-color: #53c2f9;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  float: left;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+
+}
+</style>
+<body>
+    <div class="header">
+        <h1>Responsive Media Query</h1>
+      </div>
+        <div class="col-6">
+          <h2>Media Query in CSS</h2>
+          <p>CSS media queries allows the styling of elements depending on the devices. It helps to create a responsive web design. It means that the view of a web page differs from system to system based on screen or media types.</p>
+        </div>
+       <img src="C:\Users\user\Pictures\hijabi pic.jpg" width="400" height="400"> 
+      
+        <div class="col-3">
+          <div class="aside">
+            <h2>What is Responsive web design?</h2>
+            <p>Responsive web design makes your web page look good on all devices.</p>
+            <p>Responsive web design uses only HTML and CSS.</p>
+            <p>Responsive web design is not a program or a JavaScript.</p>
+          </div>
+        </div>
+      </div>
+      
+      
+</body>
+</html>
